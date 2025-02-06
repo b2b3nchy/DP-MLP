@@ -1,2 +1,2 @@
 # DP-MLP
-Default Prediction Multi-Layer-Perceptron Model
+This Multi-Layer-Perceptron Model predicts weather a loan will default next month or not.
