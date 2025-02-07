@@ -19,7 +19,7 @@ The MLP consists of the following layers:
 This code experiments with what is the best optimiser for the model being trained on this dataset. Although the resulting graphs in the experement has a confusing output.<br>
 ![TRAINING LOSS](./Images/TRAINING_LOSS.png)<br>
 ![VALIDATION LOSS](./Images/VALIDATION_LOSS.png)<br>
-I cannot understand why when testing that Adam and RMSprop seem to have an increasing loss. 
+I cannot understand why when testing that Adam and RMSprop seem to have an increasing loss. Despite this, I still go on to achieve a better validation accuracy with SGD than Adam.
 
 ## Future Improvements
 - Add more layers to the model and change the number of nodes in the hidden layers.
