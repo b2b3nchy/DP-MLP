@@ -16,7 +16,7 @@ The MLP consists of the following layers:
   - A single neuron with a sigmoid activation function for binary classification (default vs. no default).<br>
 
 ## What the Code Accomplishes
-This code experiemnts with what is the best optimiser for the model being trained on this dataset. Although the resulting graphs in the experement has a confusing output.<br>
+This code experiments with what is the best optimiser for the model being trained on this dataset. Although the resulting graphs in the experement has a confusing output.<br>
 ![TRAINING LOSS](./Images/TRAINING_LOSS.png)<br>
 ![VALIDATION LOSS](./Images/VALIDATION_LOSS.png)<br>
 I cannot understand why when testing that Adam and RMSprop seem to have an increasing loss. 
