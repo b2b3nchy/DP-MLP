@@ -17,8 +17,8 @@ The MLP consists of the following layers:
 
 ## What the Code Accomplishes
 This code experiemnts with what is the best optimiser for the model being trained on this dataset. Although the resulting graphs in the experement has a confusing output.<br>
-![TRAINING LOSS](images/TRAINING LOSS.png)<br>
-![VALIDATION LOSS](images/VALIDATION LOSS.png)<br>
+![TRAINING LOSS](Images/TRAINING LOSS.png)<br>
+![VALIDATION LOSS](Images/VALIDATION LOSS.png)<br>
 I cannot understand why when testing that Adam and RMSprop seem to have an increasing loss. 
 
 ## Future Improvements
