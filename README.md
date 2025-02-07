@@ -4,8 +4,7 @@
 This project implements a Multi-Layer Perceptron (MLP) using TensorFlow to predict defaults on credit card payments. The dataset used is the "Default of Credit Card Clients" dataset, which contains financial information on clients and whether they defaulted on their payments. The objective is to build a predictive model that can assist financial institutions in assessing credit risk.
 
 ## Dataset
-https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients<br>
-The dataset can be found here.<br>
+The dataset can be found here: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients<br>
 
 ## Model Architecture
 The MLP consists of the following layers:
@@ -18,8 +17,8 @@ The MLP consists of the following layers:
 
 ## What the Code Accomplishes
 This code experiemnts with what is the best optimiser for the model being trained on this dataset. Although the resulting graphs in the experement has a confusing output.<br>
-![TRAINING LOSS](/Users/Ben/Documents/01 LSE/ST456 - Deep Learning /Week 2/Defualting/TRAINING LOSS.png)<br>
-![VALIDATION LOSS](/Users/Ben/Documents/01 LSE/ST456 - Deep Learning /Week 2/Defualting/VALIDATION LOSS.png)<br>
+![TRAINING LOSS](images/TRAINING LOSS.png)<br>
+![VALIDATION LOSS](images/VALIDATION LOSS.png)<br>
 I cannot understand why when testing that Adam and RMSprop seem to have an increasing loss. 
 
 ## Future Improvements
