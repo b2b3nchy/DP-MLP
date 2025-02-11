@@ -16,10 +16,10 @@ The MLP consists of the following layers:
   - A single neuron with a sigmoid activation function for binary classification (default vs. no default).<br>
 
 ## What the Code Accomplishes
-This code experiments with what is the best optimiser for the model being trained on this dataset. Although the resulting graphs in the experement has a confusing output.<br>
+This code experiments with what is the best optimiser for the model being trained on this dataset. The resulting graphs in the experement has an interesting output.<br>
 ![TRAINING LOSS](./Images/TRAINING_LOSS.png)<br>
 ![VALIDATION LOSS](./Images/VALIDATION_LOSS.png)<br>
-I cannot understand why when testing that Adam and RMSprop seem to have an increasing loss. Despite this, I still go on to achieve a better validation accuracy with SGD than Adam.
+  We can see that in validation , with this dataset, RMSprop and Adam are overfitting the data. Usually Adam, is the best performing optimiser, however, in this case SGD has a lower loss.   
 
 ## Future Improvements
 - Add more layers to the model and change the number of nodes in the hidden layers.
