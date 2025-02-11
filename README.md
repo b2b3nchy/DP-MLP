@@ -19,11 +19,12 @@ The MLP consists of the following layers:
 This code experiments with what is the best optimiser for the model being trained on this dataset. The resulting graphs in the experement has an interesting output.<br>
 ![TRAINING LOSS](./Images/TRAINING_LOSS.png)<br>
 ![VALIDATION LOSS](./Images/VALIDATION_LOSS.png)<br>
-  We can see that in validation , with this dataset, RMSprop and Adam are overfitting the data. Usually Adam, is the best performing optimiser, however, in this case SGD has a lower loss.   
+  We can see that in validation , with this dataset, RMSprop and Adam are overfitting the data. Usually Adam is the best performing optimiser, however, in this case SGD has lower loss.   
 
 ## Future Improvements
 - Add more layers to the model and change the number of nodes in the hidden layers.
 - Apply a different method of regularization (Dropout, Early Stopping)
+- Experiment with the coefficient of regularization.
 
 
 
